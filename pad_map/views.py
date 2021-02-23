@@ -7,3 +7,6 @@ class Signup(TemplateView):
 
 class Login(TemplateView):
     template_name= "login.html"
+
+class Dashboard(TemplateView):
+    template_name= "dashboard.html"
